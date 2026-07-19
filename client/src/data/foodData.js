@@ -1,0 +1,78 @@
+import { getImageByKey } from '../utils/imageMap'
+
+const foodData = [
+  {
+    id: 1,
+    name: 'Classic Burger',
+    description: 'Juicy grilled patty with cheese, lettuce and smoky sauce.',
+    rating: 4.7,
+    category: 'Burgers',
+    price: 189,
+    image: getImageByKey('burger'),
+  },
+  {
+    id: 2,
+    name: 'Margherita Pizza',
+    description: 'Wood-fired pizza with basil, mozzarella and tomato sauce.',
+    rating: 4.8,
+    category: 'Pizza',
+    price: 299,
+    image: getImageByKey('pizza'),
+  },
+  {
+    id: 3,
+    name: 'Paneer Tikka Wrap',
+    description: 'Soft wrap packed with charred paneer and tangy mint chutney.',
+    rating: 4.6,
+    category: 'Wraps',
+    price: 179,
+    image: getImageByKey('wraps'),
+  },
+  {
+    id: 4,
+    name: 'Veggie Noodles',
+    description: 'Wok tossed noodles loaded with crisp vegetables and herbs.',
+    rating: 4.5,
+    category: 'Noodles',
+    price: 169,
+    image: getImageByKey('noodles'),
+  },
+  {
+    id: 5,
+    name: 'Berry Smoothie',
+    description: 'A creamy blended drink with berries and yogurt.',
+    rating: 4.4,
+    category: 'Beverages',
+    price: 119,
+    image: getImageByKey('smoothie'),
+  },
+  {
+    id: 6,
+    name: 'Indian Thali',
+    description: 'A balanced platter with curries, breads and dessert bites.',
+    rating: 4.7,
+    category: 'Combo',
+    price: 329,
+    image: getImageByKey('dosa'),
+  },
+  {
+    id: 7,
+    name: 'Peri Peri Fries',
+    description: 'Golden fries tossed in peri peri spice blend.',
+    rating: 4.3,
+    category: 'Snacks',
+    price: 129,
+    image: getImageByKey('fries'),
+  },
+  {
+    id: 8,
+    name: 'Chicken Shawarma',
+    description: 'Tender chicken wrapped with pickles and creamy garlic sauce.',
+    rating: 4.6,
+    category: 'Wraps',
+    price: 219,
+    image: getImageByKey('shawarma'),
+  },
+]
+
+export default foodData
